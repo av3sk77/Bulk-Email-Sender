@@ -46,6 +46,6 @@ Required Arguments:<br/>
 python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt
 
 #### Email With Attachment
-python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt --attach /root/Desktop/body.txt
+![Picture]python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt --attach /root/Desktop/body.txt
   
 
