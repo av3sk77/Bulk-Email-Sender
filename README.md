@@ -7,9 +7,20 @@ You can Download the Python from this link-
 https://www.python.org/downloads/
 
 ## Before Run the Script
-Make a text file which contain the email list Like-
+Make text files which contain the email list and the Body Contains Like-
 
 <b>email_list.txt</b><br/>
 first@example.com<br/>
 sencond@example.com<br/>
-third@example.com
+third@example.com<br/>
+
+<b>body.txt</b><br/>
+Hello Sir/Madam,<br/>
+<br/>
+This is Python Script.<br/>
+Which is Send Bulk Email from one Script.<br/>
+<br/>
+Made By-<br/>
+Aves Ahmed Khan<br/>
+<br/>
+Thanks For Using this Script<br/>
