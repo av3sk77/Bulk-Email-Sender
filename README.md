@@ -39,5 +39,10 @@ Required Arguments:<br/>
   --password PASSWORD  Sender Email Password [Ex. --password Password@123]<br/>
   --subject SUBJECT    Subject Content [Ex. --subject "Enter Subject Here"]<br/>
   --body BODY          Body Content Location [Ex. --body "/root/Desktop/BodyContent.txt"]<br/>
+  <br/>
+  
+### Usage
+  
+<b> # python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt</b>
   
 
