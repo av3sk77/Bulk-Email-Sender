@@ -38,7 +38,7 @@ Thanks For Using this Script
 ```bash
 # python3 bulk-email-sender.py -h
 
-usage: bulk-email-sender.py [-h] [--attach ATTACH] --list LIST --name NAME --email EMAIL --password PASSWORD --subject SUBJECT --body BODY
+usage: bulk-email-sender.py [-h] [--attach ATTACH] --list LIST --name NAME --email EMAIL --subject SUBJECT --body BODY
 
 optional arguments:
   -h, --help           show this help message and exit
@@ -48,7 +48,6 @@ Required Arguments:
   --list LIST          Emails List Location [Ex. --list "/root/Desktop/mails.txt"]
   --name NAME          Email Sender_Name [Ex. --name "firstname lastname"]
   --email EMAIL        Sender Email Address [Ex. --email sender@example.com]
-  --password PASSWORD  Sender Email Password [Ex. --password sender_password]
   --subject SUBJECT    Subject Content [Ex. --subject "Enter Subject Here"]
   --body BODY          Body Content Location [Ex. --body "/root/Desktop/body.txt"]
 ```
@@ -56,12 +55,12 @@ Required Arguments:
 ### Usage
 #### Send Email Without Attachment
 ```bash
-# python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt
+# python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --subject "Email Subject Here" --body /root/Desktop/body.txt
 ```
 
 #### Send Email With Attachment
 ```bash
-# python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt --attach /root/Desktop/mail.csv
+# python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --subject "Email Subject Here" --body /root/Desktop/body.txt --attach /root/Desktop/mail.csv
 ```
   
 
