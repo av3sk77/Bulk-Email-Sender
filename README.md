@@ -13,14 +13,14 @@ Link- https://myaccount.google.com/u/1/lesssecureapps
 ## Before Run the Script
 Create Two text files which contain the email lists and the Body part Like-
 
-<b>email_list.txt</b>
+### email_list.txt
 ```bash
 first@example.com
 sencond@example.com
 third@example.com
 ```
 
-<b>body.txt</b>
+### body.txt
 ```bash
 Hello Sir/Madam,
 
