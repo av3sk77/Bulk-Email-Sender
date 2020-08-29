@@ -11,7 +11,7 @@ Before Run this Script Make Sure you have enable the Less Secure App Accees.
 Link- https://myaccount.google.com/u/1/lesssecureapps
 ![alt text](https://github.com/av3sk77/Bulk-Email-Sender/blob/master/less-secure-app.png?raw=true)
 ## Before Run the Script
-Create text files which contain the email list and the Body Contains Like-
+Create Two text files which contain the email lists and the Body Contains Like-
 
 <b>email_list.txt</b>
 ```bash
