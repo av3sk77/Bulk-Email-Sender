@@ -22,3 +22,6 @@ Made By-<br/>
 Aves Ahmed Khan<br/>
 <br/>
 Thanks For Using this Script<br/>
+
+## Usage
+<b>python3 bulk-email-sender.py -h</b>
