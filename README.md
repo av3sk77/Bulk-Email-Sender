@@ -10,37 +10,42 @@ https://www.python.org/downloads/
 Make text files which contain the email list and the Body Contains Like-
 
 <b>email_list.txt</b><br/>
-first@example.com<br/>
-sencond@example.com<br/>
-third@example.com<br/>
+```bash
+first@example.com
+sencond@example.com
+third@example.com
+```
 
 <b>body.txt</b><br/>
-Hello Sir/Madam,<br/>
-This is Python Script.<br/>
-Which is Send Bulk Email from one Script.<br/>
-Made By-<br/>
-Aves Ahmed Khan<br/>
-<br/>
-Thanks For Using this Script<br/>
+```bash
+Hello Sir/Madam,
+
+This is Python Script.
+Which is Send Bulk Email from one Script.
+
+Made By-
+Aves Ahmed Khan
+
+Thanks For Using this Script
+```
 
 ## How To Work
 ### Help Menu
 <b># python3 bulk-email-sender.py -h</b><br/>
 ```bash
-usage: bulk-email-sender.py [-h] [--attach ATTACH] --list LIST --name NAME --email EMAIL --password PASSWORD --subject SUBJECT --body BODY<br/>
-<br/>
-optional arguments:<br/>
-  -h, --help           show this help message and exit<br/>
-  --attach ATTACH      Add Attachment [Ex. --attach "/root/Desktop/mail.csv"]<br/>
-<br/>
-Required Arguments:<br/>
-  --list LIST          Emails List Location [Ex. --list "/root/Desktop/mails.txt"]<br/>
-  --name NAME          Email Sender_Name [Ex. --name "firstname lastname"]<br/>
-  --email EMAIL        Sender Email Address [Ex. --email sender@example.com]<br/>
-  --password PASSWORD  Sender Email Password [Ex. --password sender_password]<br/>
-  --subject SUBJECT    Subject Content [Ex. --subject "Enter Subject Here"]<br/>
-  --body BODY          Body Content Location [Ex. --body "/root/Desktop/body.txt"]<br/>
-  <br/>
+usage: bulk-email-sender.py [-h] [--attach ATTACH] --list LIST --name NAME --email EMAIL --password PASSWORD --subject SUBJECT --body BODY
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --attach ATTACH      Add Attachment [Ex. --attach "/root/Desktop/mail.csv"]
+
+Required Arguments:
+  --list LIST          Emails List Location [Ex. --list "/root/Desktop/mails.txt"]
+  --name NAME          Email Sender_Name [Ex. --name "firstname lastname"]
+  --email EMAIL        Sender Email Address [Ex. --email sender@example.com]
+  --password PASSWORD  Sender Email Password [Ex. --password sender_password]
+  --subject SUBJECT    Subject Content [Ex. --subject "Enter Subject Here"]
+  --body BODY          Body Content Location [Ex. --body "/root/Desktop/body.txt"]
 ```
   
 ### Usage
