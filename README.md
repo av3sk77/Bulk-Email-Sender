@@ -16,10 +16,8 @@ third@example.com<br/>
 
 <b>body.txt</b><br/>
 Hello Sir/Madam,<br/>
-<br/>
 This is Python Script.<br/>
 Which is Send Bulk Email from one Script.<br/>
-<br/>
 Made By-<br/>
 Aves Ahmed Khan<br/>
 <br/>
