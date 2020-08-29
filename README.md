@@ -6,6 +6,7 @@ You must be Install Python3 Version-<br/>
 You can Download the Python3 from this link-
 https://www.python.org/downloads/
 
+### Allow less secure apps
 ![alt text](https://github.com/av3sk77/Bulk-Email-Sender/blob/master/less-secure-app.png?raw=true)
 ## Before Run the Script
 Make text files which contain the email list and the Body Contains Like-
