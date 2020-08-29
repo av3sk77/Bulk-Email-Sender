@@ -24,4 +24,19 @@ Aves Ahmed Khan<br/>
 Thanks For Using this Script<br/>
 
 ## Usage
-<b>python3 bulk-email-sender.py -h</b>
+### Help Menu
+<b>python3 bulk-email-sender.py -h</b><br/>
+usage: bulk-email-sender.py [-h] [--attach ATTACH] --list LIST --name NAME --email EMAIL --password PASSWORD --subject SUBJECT --body BODY<br/>
+<br/>
+optional arguments:<br/>
+  -h, --help           show this help message and exit<br/>
+  --attach ATTACH      Add Attachment [Ex. --attach "/root/Desktop/mail.csv"]<br/>
+<br/>
+Required Arguments:<br/>
+  --list LIST          Emails List Location [Ex. --list "/root/Desktop/mails.txt"]<br/>
+  --name NAME          Email Sender_Name [Ex. --name "firstname lastname"]<br/>
+  --email EMAIL        Sender Email Address [Ex. --email sender@example.com]<br/>
+  --password PASSWORD  Sender Email Password [Ex. --password Password@123]<br/>
+  --subject SUBJECT    Subject Content [Ex. --subject "Enter Subject Here"]<br/>
+  --body BODY          Body Content Location [Ex. --body "/root/Desktop/BodyContent.txt"]<br/>
+
