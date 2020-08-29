@@ -7,3 +7,9 @@ You must be Install Python3 Version-
 You can Download the Python from this link-
 https://www.python.org/downloads/
 
+## Before Run the Script
+Make a text file which contain the email list Like-
+
+first@example.com<br/>
+sencond@example.com<br/>
+third@example.com
