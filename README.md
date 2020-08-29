@@ -31,8 +31,9 @@ Thanks For Using this Script
 
 ## How To Work
 ### Help Menu
-<b># python3 bulk-email-sender.py -h</b><br/>
 ```bash
+# python3 bulk-email-sender.py -h
+
 usage: bulk-email-sender.py [-h] [--attach ATTACH] --list LIST --name NAME --email EMAIL --password PASSWORD --subject SUBJECT --body BODY
 
 optional arguments:
