@@ -26,6 +26,7 @@ Thanks For Using this Script<br/>
 ## How To Work
 ### Help Menu
 <b># python3 bulk-email-sender.py -h</b><br/>
+```bash
 usage: bulk-email-sender.py [-h] [--attach ATTACH] --list LIST --name NAME --email EMAIL --password PASSWORD --subject SUBJECT --body BODY<br/>
 <br/>
 optional arguments:<br/>
@@ -40,10 +41,13 @@ Required Arguments:<br/>
   --subject SUBJECT    Subject Content [Ex. --subject "Enter Subject Here"]<br/>
   --body BODY          Body Content Location [Ex. --body "/root/Desktop/body.txt"]<br/>
   <br/>
+```
   
 ### Usage
 #### Email Without Attachment
+```bash
 python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt
+```
 
 #### Email With Attachment
 ```bash
