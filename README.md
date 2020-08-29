@@ -3,7 +3,7 @@ Bulk-Email-Sender Python Script will send bulk email from one Script. This scrip
 
 ## Requirement
 You must be Install Python3 Version-<br/>
-You can Download the Python from this link-
+You can Download the Python3 from this link-
 https://www.python.org/downloads/
 
 ## Before Run the Script
