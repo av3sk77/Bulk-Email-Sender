@@ -36,13 +36,16 @@ Required Arguments:<br/>
   --list LIST          Emails List Location [Ex. --list "/root/Desktop/mails.txt"]<br/>
   --name NAME          Email Sender_Name [Ex. --name "firstname lastname"]<br/>
   --email EMAIL        Sender Email Address [Ex. --email sender@example.com]<br/>
-  --password PASSWORD  Sender Email Password [Ex. --password Password@123]<br/>
+  --password PASSWORD  Sender Email Password [Ex. --password sender_password]<br/>
   --subject SUBJECT    Subject Content [Ex. --subject "Enter Subject Here"]<br/>
-  --body BODY          Body Content Location [Ex. --body "/root/Desktop/BodyContent.txt"]<br/>
+  --body BODY          Body Content Location [Ex. --body "/root/Desktop/body.txt"]<br/>
   <br/>
   
 ### Usage
-  
+#### Email Without Attachment
 <b> # python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt</b>
+
+#### Email With Attachment
+<b> # python3 bulk-email-sender.py --list /root/Desktop/email.txt --name "Your Name" --email senderemail@example.com --password sender_password --subject "Email Subject Here" --body /root/Desktop/body.txt --attach /root/Desktop/body.txt</b>
   
 
