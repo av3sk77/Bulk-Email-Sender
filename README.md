@@ -9,14 +9,14 @@ https://www.python.org/downloads/
 ## Before Run the Script
 Make text files which contain the email list and the Body Contains Like-
 
-<b>email_list.txt</b><br/>
+<b>email_list.txt</b>
 ```bash
 first@example.com
 sencond@example.com
 third@example.com
 ```
 
-<b>body.txt</b><br/>
+<b>body.txt</b>
 ```bash
 Hello Sir/Madam,
 
