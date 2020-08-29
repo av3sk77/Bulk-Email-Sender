@@ -23,9 +23,9 @@ Aves Ahmed Khan<br/>
 <br/>
 Thanks For Using this Script<br/>
 
-## Usage
+## How To Work
 ### Help Menu
-<b>python3 bulk-email-sender.py -h</b><br/>
+<b># python3 bulk-email-sender.py -h</b><br/>
 usage: bulk-email-sender.py [-h] [--attach ATTACH] --list LIST --name NAME --email EMAIL --password PASSWORD --subject SUBJECT --body BODY<br/>
 <br/>
 optional arguments:<br/>
@@ -39,4 +39,5 @@ Required Arguments:<br/>
   --password PASSWORD  Sender Email Password [Ex. --password Password@123]<br/>
   --subject SUBJECT    Subject Content [Ex. --subject "Enter Subject Here"]<br/>
   --body BODY          Body Content Location [Ex. --body "/root/Desktop/BodyContent.txt"]<br/>
+  
 
